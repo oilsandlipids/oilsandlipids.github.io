@@ -1,0 +1,38 @@
+div.navbar.navbar-mine {
+    margin: 0;
+}
+
+.jumbotron-mine {
+    background-image: url(images/canola.jpg);
+    background-size: 100% auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media (max-width: 600px) {
+    .jumbotron-mine {
+        background-image: url(images/canola-thin.jpg);
+        background-size: auto 100%;
+    }
+}
+
+.jumbotron-mine .strip {
+    width: 100%;
+    background-color: rgba(100,100,100,0.5);
+    padding-bottom: 1em;
+}
+
+.jumbotron-mine h1 {
+    color: white;
+}
+
+.jumbotron-mine h2 {
+    color: white;
+}
+
+.footer {
+    margin-top: 2em;
+    padding: 1em 0;
+    border-top: solid 1px #e0e0e0;
+    color: #e0e0e0;
+}
